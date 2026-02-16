@@ -1,0 +1,19 @@
+import 'package:flutter/material.dart';
+import 'package:siketan_new/features/detail-berita/domain/model/detail_berita_dto.dart';
+import 'package:siketan_new/features/detail-berita/presentation/view/detail_berita_page.dart';
+import 'package:siketan_new/features/onboarding/presentation/view/onboarding_page.dart';
+import 'package:siketan_new/features/profile/presentation/view/profile_page.dart';
+import 'package:siketan_new/features/search_global/presentation/view/search_global_page.dart';
+import 'package:siketan_new/features/tawkto/presentation/view/twakto_page.dart';
+import 'package:siketan_new/shared/view/home_wrapper.dart';
+import 'package:siketan_new/features/login/presentation/view/login_page.dart';
+import 'package:siketan_new/features/register/presentation/view/register_page.dart';
+import 'package:siketan_new/shared/view/not_found.dart';
+import 'package:siketan_new/shared/view/splash_screen.dart';
+import 'package:siketan_new/features/cek-nik/presentation/view/cek_nik.dart';
+import 'package:siketan_new/app/routes/route_name.dart';
+import 'package:page_transition/page_transition.dart';
+import 'package:siketan_new/features/detail-product/presentation/view/detail_product_page.dart';
+import 'package:siketan_new/features/detail-toko/presentation/view/detail_toko_page.dart';
+
+part 'route_page.dart';
